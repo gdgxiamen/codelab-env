@@ -8,18 +8,29 @@
  * Windows：运行 Git 目录下的安装程序，根据操作系统选择相应的版本
 
 ## Python / TensorFlow 安装部署
-1. 安装 Anaconda3 至 D:\Anaconda3，安装程序位于 Python_TensorFlow 目录中，根据操作系统选择适当的版本
+### Windows
+1. 安装 Anaconda3 至 D:\Anaconda3，安装程序位于 Python_TensorFlow 目录中
 2. 打开 Anaconda Prompt 终端程序，运行以下命令：
 ```
 conda create -n codelab
 ```
-3. 解压 Python_TensorFlow 目录中的 anaconda3-env-codelab 压缩包（根据操作系统选择适当的版本），得到 codelab 目录
+3. 解压 Python_TensorFlow 目录中的 anaconda3-env-codelab 压缩包，得到 codelab 目录
 4. 将上一步骤解压的 codelab 目录覆盖 D:\Anaconda3\envs\codelab 目录
 5.  Anaconda Prompt 终端程序，运行以下命令：
-```Windows
+```
 conda activate codelab
 ```
-```MacOSX
+
+### MacOSX
+1. 安装 Anaconda3 至用户目录下（如~/anaconda3），安装程序位于 Python_TensorFlow 目录中
+2. 打开 Anaconda Prompt 终端程序，运行以下命令：
+```
+conda create -n codelab
+```
+3. 解压 Python_TensorFlow 目录中的 anaconda3-env-codelab 压缩包，得到 codelab 目录
+4. 将上一步骤解压的 codelab 目录覆盖 ~/anaconda3/envs/codelab 目录
+5.  Anaconda Prompt 终端程序，运行以下命令：
+```
 source activate codelab
 ```
 
